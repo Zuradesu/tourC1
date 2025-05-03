@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TourUstadz</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold">TourUstadz</h1>
+
+      <!-- Mobile View -->
+       <button id="menu-btn" class="md:hidden block focus:outline-none">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+       </button>
+
+
+       <!-- Menu Items -->
+        
+      <ul id="menu" class="hidden md:flex space-x-6">
+        <li><a href="nb1.html" class="hover:text-blue-600">nb1</a></li>
+        <li><a href="nb2.html" class="hover:text-blue-600">nb2</a></li>
+        <li><a href="nb3.html" class="hover:text-blue-600">nb3</a></li>
+        <li><a href="nb4.html" class="hover:text-blue-600">nb4</a></li>
+      </ul>
+    </div>
+
+    <!-- Dropdown -->
+     <ul id="mobile-menu" class="md:hidden mt-4 space-y-2 px-4 hidden">
+      <li><a href="nb1.html" class="hover:text-blue-600">nb1</a></li>
+      <li><a href="nb2.html" class="hover:text-blue-600">nb2</a></li>
+      <li><a href="nb3.html" class="hover:text-blue-600">nb3</a></li>
+      <li><a href="nb4.html" class="hover:text-blue-600">nb4</a></li>
+     </ul>
+  </nav>
+
+
+
+  
+  
+
+  <!-- Hero Section -->
+  <section class="bg-gray-200 text-center py-16 px-6">
+    <h2 class="text-3xl md:text-4xl font-bold mb-4">Liburan Tanpa Ribet, Tinggal Berangkat Bareng TourUstadz!</h2>
+    <p class="text-lg mb-6">Pilih destinasi, kami urus sisanya.</p>
+    <a href="tes.html"><button class="bg-gray-800 text-white px-6 py-2 rounded-lg">Lihat Paket Wisata</button> </a>
+  </section>
+
+  <!-- Keunggulan -->
+  <section class="text-center py-12">
+    <h3 class="text-2xl font-semibold mb-6">Keunggulan Kami</h3>
+    <div class="flex flex-wrap justify-center gap-4">
+      <div class="bg-white px-6 py-3 rounded shadow">Harga Terjangkau</div>
+      <div class="bg-white px-6 py-3 rounded shadow">Mobil & Guide Nyaman</div>
+      <div class="bg-white px-6 py-3 rounded shadow">Jadwal Fleksibel</div>
+    </div>
+  </section>
+
+  <!-- Paket Wisata Populer -->
+  <section class="py-12">
+    <div class="text-center mb-8">
+      <h3 class="text-2xl font-semibold">Paket Wisata Populer</h3>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6 px-4 md:px-16">
+      <!-- Card -->
+      <div class="bg-white rounded shadow p-4 text-center">
+        <div class="h-32 bg-gray-300 mb-4"></div>
+        <h4 class="font-semibold">Trip Name</h4>
+        <p class="text-sm text-gray-600">Rp X.XXX.XXX</p>
+        <button class="mt-2 border border-gray-800 px-4 py-1 rounded">Lihat Detail</button>
+      </div>
+      <!-- Copy above 3x more -->
+      <div class="bg-white rounded-3xl shadow p-4 text-center">
+        <div class="h-32 bg-gray-300 mb-4"></div>
+        <h4 class="font-semibold">Trip Name</h4>
+        <p class="text-sm text-gray-600">Rp X.XXX.XXX</p>
+        <button class="mt-2 border border-gray-800 px-4 py-1 rounded">Lihat Detail</button>
+      </div>
+      <div class="bg-white rounded shadow p-4 text-center">
+        <div class="h-32 bg-gray-300 mb-4"></div>
+        <h4 class="font-semibold">Trip Name</h4>
+        <p class="text-sm text-gray-600">Rp X.XXX.XXX</p>
+        <button class="mt-2 border border-gray-800 px-4 py-1 rounded">Lihat Detail</button>
+      </div>
+      <div class="bg-white rounded shadow p-4 text-center">
+        <div class="h-32 bg-gray-300 mb-4"></div>
+        <h4 class="font-semibold">Trip Name</h4>
+        <p class="text-sm text-gray-600">Rp X.XXX.XXX</p>
+        <button class="mt-2 border border-gray-800 px-4 py-1 rounded">Lihat Detail</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Destinasi Favorit -->
+  <section class="py-12 bg-gray-100">
+    <div class="text-center mb-8">
+      <h3 class="text-2xl font-semibold">Destinasi Favorit</h3>
+    </div>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 px-4 md:px-16">
+      <div class="text-center">
+        <div class="h-24 bg-gray-300 mb-2"></div>
+        <p>Nama Destinasi</p>
+      </div>
+      <div class="text-center">
+        <div class="h-24 bg-gray-300 mb-2"></div>
+        <p>Nama Destinasi</p>
+      </div>
+      <div class="text-center">
+        <div class="h-24 bg-gray-300 mb-2"></div>
+        <p>Nama Destinasi</p>
+      </div>
+      <div class="text-center">
+        <div class="h-24 bg-gray-300 mb-2"></div>
+        <p>Nama Destinasi</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimoni -->
+  <section class="py-12 text-center">
+    <h3 class="text-2xl font-semibold mb-8">Testimoni</h3>
+    <div class="flex flex-col md:flex-row justify-center gap-8 px-4">
+      <div class="bg-white rounded shadow p-6">
+        <div class="flex items-center gap-4 mb-2">
+          <div class="w-12 h-12 bg-gray-300 rounded-full"></div>
+          <div class="text-left">
+            <p class="font-bold">Nama</p>
+            <p class="text-sm text-gray-500">★★★★★</p>
+          </div>
+        </div>
+        <p class="text-sm text-left text-gray-600">Lorem ipsum jakn-kamatanda átamát tekæn.</p>
+      </div>
+      <div class="bg-white rounded shadow p-6">
+        <div class="flex items-center gap-4 mb-2">
+          <div class="w-12 h-12 bg-gray-300 rounded-full"></div>
+          <div class="text-left">
+            <p class="font-bold">Nama</p>
+            <p class="text-sm text-gray-500">★★★★★</p>
+          </div>
+        </div>
+        <p class="text-sm text-left text-gray-600">Lorem ipsum plllli kanmat, consectetur ell,q.</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+
+<script>
+  const menuBtn = document.getElementById('menu-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  menuBtn.addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden');
+  } )
+</script>
+</html>

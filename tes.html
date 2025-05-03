@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trip Gunung Bromo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Header Gambar -->
+  <div class="relative w-full h-64 md:h-96">
+    <img src="https://source.unsplash.com/1600x900/?bromo" alt="Gunung Bromo" class="object-cover w-full h-full" />
+    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+      <div class="text-center text-white">
+        <h1 class="text-3xl md:text-5xl font-bold">Gunung Bromo</h1>
+        <p class="text-lg md:text-xl mt-2">Start From Rp750.000</p>
+        <a href="rawr.html" class="bg-green-500 text-white px-6 py-3 rounded-full mt-4 hover:bg-green-600 transition">
+          Booking Sekarang
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lokasi dan Info Trip -->
+  <div class="max-w-7xl mx-auto px-4 py-6">
+    <h2 class="text-xl font-semibold">📍 Gunung Bromo, Jawa Timur</h2>
+    <p class="text-gray-600">2 Hari 1 Malam – Start From Rp750.000</p>
+  </div>
+
+  <!-- Deskripsi Trip -->
+  <div class="max-w-7xl mx-auto px-4 py-6">
+    <h3 class="text-lg font-bold">📝 Deskripsi Trip</h3>
+    <p class="text-gray-700 leading-relaxed">
+      Gunung Bromo menawarkan pengalaman sunrise yang spektakuler, petualangan jeep di lautan pasir,
+      serta keindahan alam pegunungan yang ikonik. Cocok untuk kamu yang suka eksplor dan hunting
+      foto epic!
+    </p>
+  </div>
+
+  <!-- Itinerary Section (Accordion) -->
+  <div class="max-w-7xl mx-auto px-4 py-6">
+    <h3 class="text-lg font-bold">📆 Itinerary</h3>
+    <div class="bg-gray-100 p-4 rounded-lg space-y-4">
+      <div class="accordion">
+        <button class="accordion-item text-xl font-semibold text-left w-full py-2 border-b">Hari 1</button>
+        <div class="accordion-content space-y-1 pl-4">
+          <ul class="list-disc list-inside text-sm text-gray-700">
+            <li>Penjemputan di Malang/Surabaya</li>
+            <li>Menuju Bromo</li>
+            <li>Jeep Sunrise Tour</li>
+            <li>Explore Lautan Pasir & Pura</li>
+            <li>Check-in Penginapan</li>
+          </ul>
+        </div>
+      </div>
+      <div class="accordion">
+        <button class="accordion-item text-xl font-semibold text-left w-full py-2 border-b">Hari 2</button>
+        <div class="accordion-content space-y-1 pl-4">
+          <ul class="list-disc list-inside text-sm text-gray-700">
+            <li>Lava Tour Semeru</li>
+            <li>Sarapan & Checkout</li>
+            <li>Transfer kembali ke Malang/Surabaya</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ <!-- Fasilitas Section -->
+<div class="max-w-7xl mx-auto px-4 py-6">
+    <h3 class="text-lg font-bold mb-4">🎁 Fasilitas</h3>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-2">
+      <div class="flex items-center space-x-2">
+        <span class="text-2xl">🚙</span>
+        <p>Transportasi Pariwisata</p>
+      </div>
+      <div class="flex items-center space-x-2">
+        <span class="text-2xl">🏨</span>
+        <p>Penginapan 1 malam</p>
+      </div>
+      <div class="flex items-center space-x-2">
+        <span class="text-2xl">🍽️</span>
+        <p>Makan sesuai program</p>
+      </div>
+      <div class="flex items-center space-x-2">
+        <span class="text-2xl">🧭</span>
+        <p>Guide & Tiket Wisata</p>
+      </div>
+      <div class="flex items-center space-x-2">
+        <span class="text-2xl">📸</span>
+        <p>Dokumentasi (Drone + Kamera)</p>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- CTA Booking -->
+  <div class="fixed bottom-0 left-0 w-full bg-white border-t border-gray-200 shadow-lg p-4 z-50">
+    <div class="max-w-7xl mx-auto text-center">
+      <a href="https://wa.me/6281234567890" target="_blank"
+         class="bg-green-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-600 transition">
+        Booking Sekarang via WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <!-- Accordion JS -->
+  <script>
+    const accItems = document.querySelectorAll(".accordion-item");
+    accItems.forEach(item => {
+      item.addEventListener("click", () => {
+        const content = item.nextElementSibling;
+        content.classList.toggle("hidden");
+      });
+    });
+  </script>
+
+</body>
+</html>

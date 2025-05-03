@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TourUstadz</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-green-600 text-white px-6 py-4 flex justify-between items-center">
+    <div class="text-xl font-bold">TourUstadz</div>
+    <ul class="flex space-x-6 text-sm font-medium">
+      <li><a href="#" class="hover:underline">Home</a></li>
+      <li><a href="#" class="hover:underline">Destinasi</a></li>
+      <li><a href="#" class="hover:underline">Paket</a></li>
+      <li><a href="#" class="hover:underline">Tentang</a></li>
+      <li><a href="#" class="hover:underline">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="text-center relative">
+    <img src="https://source.unsplash.com/featured/?bromo,mountain" class="w-full h-[300px] object-cover" alt="Hero">
+    <div class="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center">
+      <h1 class="text-white text-3xl md:text-4xl font-bold mb-4">
+        Liburan Tanpa Ribet, Tinggal Berangkat Bareng TourUstadz
+      </h1>
+      <a href="index.html"><button class="bg-green-600 px-4 py-2 rounded text-white font-medium hover:bg-green-700 transition">
+        Lihat Paket Wisata
+      </button>
+      </a>
+    </div>
+  </section>
+
+  <!-- Keunggulan -->
+  <section class="py-12 px-6 text-center">
+    <h2 class="text-xl font-semibold mb-6">Keunggulan Kami</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+      <div class="bg-green-100 p-6 rounded-xl">
+        <div class="text-4xl mb-2">💰</div>
+        <h3 class="font-semibold">Harga Terjangkau</h3>
+        <p class="text-sm text-gray-600">Harga pas di kantong, tanpa biaya tersembunyi.</p>
+      </div>
+      <div class="bg-green-100 p-6 rounded-xl">
+        <div class="text-4xl mb-2">🚌</div>
+        <h3 class="font-semibold">Mobil & Guide Nyaman</h3>
+        <p class="text-sm text-gray-600">Kenyamanan perjalanan prioritas kami.</p>
+      </div>
+      <div class="bg-green-100 p-6 rounded-xl">
+        <div class="text-4xl mb-2">🧳</div>
+        <h3 class="font-semibold">Fleksibel</h3>
+        <p class="text-sm text-gray-600">Bisa custom destinasi dan waktu.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Paket Wisata Populer -->
+  <section class="px-6 py-10 text-center">
+    <h2 class="text-xl font-semibold mb-6">Paket Wisata Populer</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 max-w-6xl mx-auto">
+      <div class="shadow rounded overflow-hidden">
+        <img src="https://source.unsplash.com/featured/?bromo" alt="" class="h-[150px] w-full object-cover">
+        <div class="p-3 text-sm">
+          <p class="font-semibold">Bromo Trip</p>
+          <p class="text-green-600">Rp 450.000</p>
+          <button class="mt-2 bg-green-600 text-white px-3 py-1 rounded text-xs">Lihat Detail</button>
+        </div>
+      </div>
+      <!-- Duplicate 3x untuk mock -->
+      <div class="shadow rounded overflow-hidden">
+        <img src="https://source.unsplash.com/featured/?bromo" alt="" class="h-[150px] w-full object-cover">
+        <div class="p-3 text-sm">
+          <p class="font-semibold">Bromo Trip</p>
+          <p class="text-green-600">Rp 450.000</p>
+          <button class="mt-2 bg-green-600 text-white px-3 py-1 rounded text-xs">Lihat Detail</button>
+        </div>
+      </div>
+      <div class="shadow rounded overflow-hidden">
+        <img src="https://source.unsplash.com/featured/?bromo" alt="" class="h-[150px] w-full object-cover">
+        <div class="p-3 text-sm">
+          <p class="font-semibold">Bromo Trip</p>
+          <p class="text-green-600">Rp 450.000</p>
+          <button class="mt-2 bg-green-600 text-white px-3 py-1 rounded text-xs">Lihat Detail</button>
+        </div>
+      </div>
+      <div class="shadow rounded overflow-hidden">
+        <img src="https://source.unsplash.com/featured/?bromo" alt="" class="h-[150px] w-full object-cover">
+        <div class="p-3 text-sm">
+          <p class="font-semibold">Bromo Trip</p>
+          <p class="text-green-600">Rp 450.000</p>
+          <button class="mt-2 bg-green-600 text-white px-3 py-1 rounded text-xs">Lihat Detail</button>
+        </div>
+      </div>
+    </div>
+
+    <button class="mt-6 bg-black text-white px-6 py-2 rounded text-sm">Lihat semua paket wisata 🔍</button>
+  </section>
+
+  <!-- Destinasi Favorit -->
+  <section class="px-6 py-10 text-center">
+    <h2 class="text-xl font-semibold mb-6">Destinasi Favorit</h2>
+    <div class="flex justify-center gap-4 flex-wrap">
+      <img src="https://source.unsplash.com/featured/?bromo" alt="Bromo" class="w-[100px] h-[100px] object-cover rounded shadow">
+      <img src="https://source.unsplash.com/featured/?tumpaksewu" alt="Tumpak Sewu" class="w-[100px] h-[100px] object-cover rounded shadow">
+      <img src="https://source.unsplash.com/featured/?dieng" alt="Dieng" class="w-[100px] h-[100px] object-cover rounded shadow">
+      <img src="https://source.unsplash.com/featured/?ijen" alt="Ijen" class="w-[100px] h-[100px] object-cover rounded shadow">
+    </div>
+  </section>
+
+  <!-- Testimoni -->
+  <section class="px-6 py-12 text-center">
+    <h2 class="text-xl font-semibold mb-6">Testimoni</h2>
+    <div class="flex justify-center gap-6 flex-wrap max-w-4xl mx-auto">
+      <div class="bg-white p-4 border rounded shadow text-sm">
+        <p>⭐⭐⭐⭐⭐</p>
+        <p>Wisatanya seru banget, guide-nya ramah!</p>
+        <div class="mt-2 font-medium">🧑‍🦱</div>
+      </div>
+      <div class="bg-white p-4 border rounded shadow text-sm">
+        <p>⭐⭐⭐⭐⭐</p>
+        <p>Gokil keren, ga nyesel join tour agent ini!</p>
+        <div class="mt-2 font-medium">🧑‍🎤</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="bg-black text-white py-8 px-6 text-center rounded-lg mx-4 my-6">
+    <h3 class="text-lg font-bold">Liburan Tanpa Drama, Tinggal Duduk Manis Aja!</h3>
+    <button class="mt-3 bg-green-600 text-white px-6 py-2 rounded">Booking sekarang 📱</button>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-green-600 text-white px-6 py-8 text-sm">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-6xl mx-auto">
+      <div>
+        <h4 class="font-bold mb-2">TourUstadz</h4>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-2">Quick Links</h4>
+        <ul>
+          <li>Paket</li>
+          <li>Destinasi</li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-2">Kontak</h4>
+        <p>Admin: 0822-2222-3333</p>
+        <p>Admin2: 0822-7777-3211</p>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-2">Alamat</h4>
+        <p>Jl. Cangar, RT04/RW02,<br>Desa Bulukerto, Kota Batu,<br>Malang, Jawa Timur</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

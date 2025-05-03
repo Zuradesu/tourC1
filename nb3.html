@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TourUstadz - Eksklusif & Nyaman</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .hover-glow:hover {
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+            transform: translateY(-4px);
+            transition: all 0.3s ease-in-out;
+        }
+    </style>
+</head>
+
+<body class="bg-[#f7f6f2] text-gray-800">
+    <!-- Navbar -->
+    <nav class="bg-gradient-to-r from-emerald-900 to-emerald-600 text-white px-6 py-4 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-3xl font-bold tracking-wide">TourUstadz</a>
+            <div class="hidden md:flex space-x-6">
+                <a href="nb1.html" class="hover:underline">nb1</a>
+                <a href="nb2.html" class="hover:underline">nb2</a>
+                <a href="nb3.html" class="hover:underline">nb3</a>
+                <a href="nb4.html" class="hover:underline">nb4</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative bg-cover bg-center h-[500px] flex items-center justify-center text-white text-center"
+        style="background-image: url('your-image-path.jpg');">
+        <div class="bg-black bg-opacity-50 p-12 rounded-2xl shadow-2xl max-w-2xl mx-auto" data-aos="fade-up">
+            <h1 class="text-5xl font-bold">Travel Eksklusif Tanpa Repot</h1>
+            <p class="text-lg mt-4">Pilih paket impianmu dan biarkan kami yang mengurus semuanya.</p>
+            <button class="mt-6 bg-amber-500 px-6 py-3 rounded-full hover:bg-amber-600 transition-all hover-glow text-white font-semibold">Lihat Paket</button>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="container mx-auto py-20 text-center">
+        <h2 class="text-4xl font-bold mb-10" data-aos="fade-up">Kenapa Memilih Kami?</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+            <div class="bg-white p-10 rounded-2xl shadow-lg hover-glow" data-aos="fade-up" data-aos-delay="100">
+                <h3 class="text-xl font-semibold mb-3">Kemewahan Terjangkau</h3>
+                <p>Nikmati perjalanan kelas atas dengan harga yang bersahabat.</p>
+            </div>
+            <div class="bg-white p-10 rounded-2xl shadow-lg hover-glow" data-aos="fade-up" data-aos-delay="200">
+                <h3 class="text-xl font-semibold mb-3">Kenyamanan Premium</h3>
+                <p>Transportasi nyaman & pemandu berpengalaman siap menemani Anda.</p>
+            </div>
+            <div class="bg-white p-10 rounded-2xl shadow-lg hover-glow" data-aos="fade-up" data-aos-delay="300">
+                <h3 class="text-xl font-semibold mb-3">Fleksibel & Personal</h3>
+                <p>Sesuaikan perjalanan Anda dengan kebutuhan dan preferensi pribadi.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Packages -->
+    <section class="container mx-auto py-20 text-center">
+        <h2 class="text-4xl font-bold mb-10" data-aos="fade-up">Paket Favorit</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+            <div class="bg-white p-10 rounded-2xl shadow-lg hover-glow" data-aos="fade-up" data-aos-delay="100">
+                <h3 class="text-xl font-semibold mb-2">Bromo Sunrise Trip</h3>
+                <p class="text-emerald-700 font-bold mb-4">Mulai dari Rp450.000 / orang</p>
+                <button class="bg-emerald-700 text-white px-5 py-2 rounded-full hover:bg-emerald-800 transition-all">Lihat Detail</button>
+            </div>
+            <div class="bg-white p-10 rounded-2xl shadow-lg hover-glow" data-aos="fade-up" data-aos-delay="200">
+                <h3 class="text-xl font-semibold mb-2">Bali 3H2M</h3>
+                <p class="text-emerald-700 font-bold mb-4">Mulai dari Rp1.200.000 / orang</p>
+                <button class="bg-emerald-700 text-white px-5 py-2 rounded-full hover:bg-emerald-800 transition-all">Lihat Detail</button>
+            </div>
+            <div class="bg-white p-10 rounded-2xl shadow-lg hover-glow" data-aos="fade-up" data-aos-delay="300">
+                <h3 class="text-xl font-semibold mb-2">Festival Dieng 2H1M</h3>
+                <p class="text-emerald-700 font-bold mb-4">Mulai dari Rp800.000 / orang</p>
+                <button class="bg-emerald-700 text-white px-5 py-2 rounded-full hover:bg-emerald-800 transition-all">Lihat Detail</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-10 text-center">
+        <p class="text-sm">&copy; 2025 TourUstadz. Semua hak dilindungi.</p>
+    </footer>
+
+    <script>
+        AOS.init({ duration: 1000 });
+    </script>
+</body>
+
+</html>

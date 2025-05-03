@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TourUstadz</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="id">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TourUstadz</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+
+    <body class="bg-white text-gray-900">
+        <!-- Navbar -->
+        <nav class="bg-cyan-700 text-white px-6 py-4 flex items-center justify-between">
+            <div class="container flex mx-auto py-4">
+                <div class="text-lg font-bold">TourUstadz</div>
+            <ul class="hidden md:flex space-x-6">
+                <li><a href="nb1.html" class="hover:underline">nb1</a></li>
+                <li><a href="nb2.html" class="hover:underline">nb2</a></li>
+                <li><a href="nb3.html" class="hover:underline">nb3</a></li>
+                <li><a href="nb4.html" class="hover:underline">nb4</a></li>
+            </ul>
+            <button id="menu-btn" class="md:hidden focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+            </div>
+        </nav>
+
+        <div id="menu" class="md:hidden hidden px-6 py-4 bg-cyan-700 text-white">
+            <ul class="space-y-4">
+                <li><a href="nb1.html" class="block">nb1</a></li>
+                <li><a href="nb2.html" class="block">nb2</a></li>
+                <li><a href="nb3.html" class="block">nb3</a></li>
+                <li><a href="nb4.html" class="block">nb4</a></li>
+            </ul>
+        </div>
+
+        <!-- Hero -->
+        <section class="text-center px-4 py-8">
+            <h1 class="text-2xl md:text-4xl font-semibold mb-4">
+                Liburan Gak Ribet, Cuma Tinggal Berangkat!
+            </h1>
+            <img src="asset/bromo.jpg" alt="Bromo" class="rounded-xl w-full max-h-[300px] object-cover mb-4" />
+            <button class="bg-green-600 text-white px-6 py-2 rounded-full">
+                Lihat Paket Wisata
+            </button>
+        </section>
+
+        <!-- Keunggulan Kami -->
+        <section class="max-w-screen-xl mx-auto px-4 py-8 grid md:grid-cols-3 gap-6">
+            <div class="bg-green-600 text-white p-4 rounded-xl text-center">
+                <h3 class="font-bold text-lg mb-2">Harga Terjangkau</h3>
+                <p>Wisata aman nyaman nggak harus mahal!</p>
+            </div>
+            <div class="bg-green-600 text-white p-4 rounded-xl text-center">
+                <h3 class="font-bold text-lg mb-2">Mobil & Guide Nyaman</h3>
+                <p>Pakai kendaraan prima dan guide lokal yang profesional.</p>
+            </div>
+            <div class="bg-green-600 text-white p-4 rounded-xl text-center">
+                <h3 class="font-bold text-lg mb-2">Fleksibel</h3>
+                <p>Bisa custom trip sesuai request!</p>
+            </div>
+        </section>
+
+        <!-- Paket Wisata Populer -->
+        <section class="px-4 py-8">
+            <h2 class="text-xl font-bold text-center mb-6">
+              Paket Wisata Populer
+            </h2>
+          
+            <div class="max-w-screen-xl mx-auto grid gap-6 sm:grid-cols-2 md:grid-cols-3">
+              <!-- Card Start -->
+              <div class="relative w-full h-64 rounded-xl overflow-hidden">
+                <img src="asset/bromo.jpg" alt="Bromo" class="w-full h-full object-cover" />
+                <div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/70 to-transparent p-4 text-white">
+                  <h3 class="font-semibold text-lg">Bromo Sunrise Trip</h3>
+                  <p class="text-sm">Rp 450.000 / pax</p>
+                  <button class="mt-2 bg-emerald-500 hover:bg-emerald-600 text-white text-sm px-3 py-1 rounded">
+                    Lihat Detail >
+                  </button>
+                </div>
+              </div>
+              <!-- Card End -->
+          
+              <!-- Ulangi untuk card lainnya -->
+              <div class="relative w-full h-64 rounded-xl overflow-hidden">
+                <img src="asset/sewu.jpg" alt="Bali" class="w-full h-full object-cover" />
+                <div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/70 to-transparent p-4 text-white">
+                  <h3 class="font-semibold text-lg">Bali 3H2M</h3>
+                  <p class="text-sm">Rp 1.200.000 / pax</p>
+                  <button class="mt-2 bg-emerald-500 hover:bg-emerald-600 text-white text-sm px-3 py-1 rounded">
+                    Lihat Detail >
+                  </button>
+                </div>
+              </div>
+          
+              <div class="relative w-full h-64 rounded-xl overflow-hidden">
+                <img src="asset/sewu.jpg" alt="Dieng" class="w-full h-full object-cover" />
+                <div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/70 to-transparent p-4 text-white">
+                  <h3 class="font-semibold text-lg">Festival Dieng 2H1M</h3>
+                  <p class="text-sm">Rp 800.000 / pax</p>
+                  <button class="mt-2 bg-emerald-500 hover:bg-emerald-600 text-white text-sm px-3 py-1 rounded">
+                    Lihat Detail >
+                  </button>
+                </div>
+              </div>
+            </div>
+          
+            <div class="text-center mt-6">
+              <button class="bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800">
+                Lihat semua paket wisata
+              </button>
+            </div>
+          </section>
+          
+
+        <!-- Testimoni -->
+        <section class="max-w-screen-xl mx-auto px-4 py-8 text-center">
+            <h2 class="text-xl font-bold mb-6">Apa kata mereka?</h2>
+            <div class="grid md:grid-cols-2 gap-4">
+                <div class="bg-green-600 text-white p-4 rounded-xl">
+                    <p>"Trip ke Bromo seru banget, guide-nya ramah!"</p>
+                    <p class="mt-2">⭐⭐⭐⭐⭐</p>
+                </div>
+                <div class="bg-green-600 text-white p-4 rounded-xl">
+                    <p>
+                        "TourUstadz bener2 cocok di budget, full fasilitas, dan nyaman
+                        banget. Ini baru travel impian!"
+                    </p>
+                    <p class="mt-2">⭐⭐⭐⭐⭐</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class=" max-w-screen-xl mx-auto px-4 py-8 text-white bg-black text-center rounded-xl mx-4">
+            <h3 class="text-xl font-bold mb-2">
+                Liburan Tanpa Drama, Tinggal Duduk Manis Aja!
+            </h3>
+            <button class="bg-green-600 text-white px-6 py-2 rounded-full">
+                Booking sekarang!
+            </button>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-green-600 text-white px-4 py-8 mt-8">
+            <div class="grid md:grid-cols-4 gap-4">
+                <div>
+                    <h4 class="font-bold mb-2">TourUstadz</h4>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-2">Quick Links</h4>
+                    <ul>
+                        <li>Home</li>
+                        <li>Paket</li>
+                        <li>Destinasi</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-2">Kontak</h4>
+                    <p>Admin: +111-2222-3333</p>
+                    <p>Admin2: +222-1111-3333</p>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-2">Alamat</h4>
+                    <p>Jl. Cangkringan, RT10/RW02, Pakem, Sleman, Yogyakarta</p>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            const menuBtn = document.getElementById("menu-btn");
+            const menu = document.getElementById("menu");
+
+            menuBtn.addEventListener("click", () => {
+                menu.classList.toggle("hidden");
+            });
+        </script>
+    </body>
+
+    </html>
+
+
+</body>
+
+</html>
