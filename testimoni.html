@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TourUstadz - Eksklusif & Nyaman</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;700&display=swap"
+        rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/heroicons@1.0.6/umd/heroicons.min.js"></script>
+    <style>
+        body {
+            font-family: "Inter", sans-serif;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: "Playfair Display", serif;
+        }
+
+        .hover-glow:hover {
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+            transform: translateY(-4px);
+            transition: all 0.3s ease-in-out;
+        }
+    </style>
+</head>
+
+<body class="bg-[#f7f6f2] text-gray-800">
+    <!-- Navbar -->
+    <nav class="bg-gradient-to-r from-emerald-800 to-emerald-500 text-white px-6 py-4 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <!-- Logo -->
+            <a href="index.html"
+                class="text-2xl font-bold tracking-wide hover:text-emerald-300 transition duration-300">
+                Logo
+            </a>
+
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex space-x-6">
+                <a href="index.html" class="hover:text-emerald-300 transition">Beranda</a>
+                <a href="paket.html" class="hover:text-emerald-300 transition">Liburan</a>
+                <a href="testimoni.html" class="hover:text-emerald-300 transition">Testimoni</a>
+                <a href="tentang.html" class="hover:text-emerald-300 transition">Tentang Kami</a>
+            </div>
+
+            <!-- Hamburger Button (Mobile) -->
+            <button id="menu-toggle" class="md:hidden focus:outline-none">
+                <svg xmlns="http://www.w3.org/2000/svg" class="size-6" fill="currentColor" viewBox="0 0 24 24">
+                    <path fill-rule="evenodd"
+                        d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm8.25 5.25a.75.75 0 0 1 .75-.75h8.25a.75.75 0 0 1 0 1.5H12a.75.75 0 0 1-.75-.75Z"
+                        clip-rule="evenodd" />
+                </svg>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="menu"
+            class="fixed top-0 left-0 w-64 h-full bg-emerald-800 text-white transform -translate-x-full transition-transform duration-300 ease-in-out z-50 md:hidden">
+            <div class="flex flex-col items-start px-6 py-10 space-y-4">
+                <a href="index.html" class="block w-full py-2 hover:bg-emerald-700 rounded-md">Beranda</a>
+                <a href="paket.html" class="block w-full py-2 hover:bg-emerald-700 rounded-md">Liburan</a>
+                <a href="testimoni.html" class="block w-full py-2 hover:bg-emerald-700 rounded-md">Testimoni</a>
+                <a href="tentang.html" class="block w-full py-2 hover:bg-emerald-700 rounded-md">Tentang Kami</a>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- Hero  -->
+
+
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white px-6 py-12 mt-16">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-sm">
+            <!-- Brand -->
+            <div>
+                <h4 class="text-xl font-bold mb-3">Logo</h4>
+                <p class="text-gray-400">Eksklusif, nyaman, dan penuh makna.</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div>
+                <h4 class="text-lg font-semibold mb-3">Quick Links</h4>
+                <ul class="space-y-2 text-gray-300">
+                    <li><a href="index.html" class="hover:underline">Home</a></li>
+                    <li><a href="paket.html" class="hover:underline">Paket</a></li>
+                    <li>
+                        <a href="destinasi.html" class="hover:underline">Destinasi</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Kontak -->
+            <div>
+                <h4 class="text-lg font-semibold mb-3">Kontak</h4>
+                <p class="text-gray-300">Admin 1: +111-2222-3333</p>
+                <p class="text-gray-300">Admin 2: +222-1111-3333</p>
+            </div>
+
+            <!-- Alamat -->
+            <div>
+                <h4 class="text-lg font-semibold mb-3">Alamat</h4>
+                <p class="text-gray-300 leading-relaxed">
+                    Jl. Cangkringan, RT10/RW02<br />Pakem, Sleman, Malang
+                </p>
+            </div>
+        </div>
+
+        <div class="text-center mt-10 text-gray-500 text-xs">
+            &copy; 2025 Logo. Semua hak dilindungi.
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({ duration: 1000 });
+
+        const menuToggle = document.getElementById("menu-toggle");
+        const menu = document.getElementById("menu");
+        const icon = document.getElementById("menu-icon");
+
+        menuToggle.addEventListener("click", () => {
+            const isMenuOpen = menu.classList.contains("-translate-x-full");
+
+            // Toggle menu sliding in/out
+            menu.classList.toggle("-translate-x-full", !isMenuOpen);
+            menu.classList.toggle("translate-x-0", isMenuOpen);
+
+            // Mengubah ikon hamburger ke ikon X (tutup)
+            icon.setAttribute(
+                "d",
+                isMenuOpen
+                    ? "M6 18L18 6M6 6l12 12" // Ikon X (tutup)
+                    : "M4 6h16M4 12h16M4 18h16" // Ikon hamburger (buka)
+            );
+        });
+    </script>
+</body>
+
+</html>
